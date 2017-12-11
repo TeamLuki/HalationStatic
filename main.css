@@ -1,0 +1,24 @@
+html {
+    min-height: 100%
+}
+body{
+    --pink: rgba(255, 142, 255, 1);
+    --blue: rgba(0,252,255,1);
+    background: var(--pink);
+    background: -webkit-linear-gradient(var(--pink),var(--blue));
+    background: -o-linear-gradient(var(--pink),var(--blue));
+    background: -moz-linear-gradient(var(--pink),var(--blue));
+    background: linear-gradient(var(--pink),var(--blue));
+}
+h1{
+    text-align: center;
+}
+.text{
+    font-family: 'Annie Use Your Telescope', cursive;
+}
+.fixed
+{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
